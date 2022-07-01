@@ -1,4 +1,4 @@
 # Template-landing-page
 A template, landing page 
 
-this is just an updated readme to check
+All images are owned by the authors from https://www.pexels.com/
