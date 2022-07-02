@@ -23,6 +23,69 @@ body {
     padding: 32px;
 }
 
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-weight: bold ;
+    font-size: 24px;
+    color: #f9faf8;
+    font-style: italic;
+}
+
+ul {
+    display: flex;
+    gap: 8px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.header-text{
+    display: flex;
+}
+
+.header-h1 {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.header-p{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 300px;
+    height: 100px;
+}
+
+.header-image{
+
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 8px;
+    width: 90px;
+    height: 30px;
+}
+
 img {
     height: 200px;
     width: 350px;
