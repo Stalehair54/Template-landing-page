@@ -145,9 +145,11 @@ a {
 }
 
 .quote-main{
+    align-self: center;
     font-size: 36px;
     font-style: italic;
     opacity: .8;
+    width: 900px;
 }
 
 .quote-cred {
@@ -158,11 +160,47 @@ a {
 
 /* action-call */
 
+#action-call{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 90px;
+    padding: 60px;
+    background-color: #3983fa;
+    border-radius: 10px;
+}
 
+.action-call-container{
+    display: flex;
+    gap: 4px;
+    padding: 0px;
+    flex-direction: column;
+    color: #f9faf8;
+}
 
+.action-header{
+    font-size:20px ;
+    align-self: flex-start;
+}
 
+.action-p{
+    font-size: 16px;
+    color: #e5e7eb;
+}
 
-
+.action-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100px;
+    padding: 20px;
+    background-color: #3983fa;
+    border: solid #f9faf8;
+    border-radius: 8px;
+    align-self: flex-end;
+    color: #ffffff;
+}
 
 /* action-call */
 
