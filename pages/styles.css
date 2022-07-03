@@ -103,3 +103,56 @@ a {
 
 /* header */
 
+/* cards */
+
+#cards-container{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 100px;
+    margin: 60px;
+}
+
+.card-info{
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+    padding:36px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 200px;
+    gap: 16px;
+}
+
+
+/* cards */
+
+/* quote */
+
+
+
+
+
+
+/* quote */
+
+/* action-call */
+
+
+
+
+
+
+
+/* action-call */
+
+/* footer */
+
+
+
+
+
+
+/* footer */
