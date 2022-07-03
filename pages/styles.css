@@ -108,7 +108,6 @@ a {
 #cards-container{
     display: flex;
     flex-direction: column;
-    flex: 1 1 100px;
     margin: 60px;
 }
 
@@ -122,10 +121,13 @@ a {
 .cards {
     display: flex;
     flex-wrap: wrap;
-    flex-basis: 200px;
+    flex-basis: 2px;
     gap: 16px;
 }
 
+.cards p {
+    width: 300px;
+}
 
 /* cards */
 
