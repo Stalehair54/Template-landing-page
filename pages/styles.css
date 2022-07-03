@@ -123,6 +123,7 @@ a {
     flex-wrap: wrap;
     flex-basis: 2px;
     gap: 16px;
+    margin-bottom: 20px;
 }
 
 .cards p {
@@ -133,10 +134,25 @@ a {
 
 /* quote */
 
+#quote-container{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    gap: 60px;
+    padding: 80px;
+    background-color: #e5e7eb;
+    color: #1f2937;
+}
 
+.quote-main{
+    font-size: 36px;
+    font-style: italic;
+    opacity: .8;
+}
 
-
-
+.quote-cred {
+    margin-right: -300px;
+}
 
 /* quote */
 
